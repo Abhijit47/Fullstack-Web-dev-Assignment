@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="utils.css" />
+    <title>Registration form</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <table border="1" cellspacing="5" cellpadding="5" class="container">
+        <th colspan="2" class="heading">
+          <h1>Registration Form</h1>
+        </th>
+
+        <tr>
+          <td class="fields">First Name</td>
+          <td class="fields">
+            <input
+              class="input"
+              type="text"
+              name="firstname"
+              id="firstname"
+              required />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Last Name</td>
+          <td class="fields">
+            <input
+              class="input"
+              type="text"
+              name="lastname"
+              id="lastname"
+              required />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Email</td>
+          <td class="fields">
+            <input
+              class="input"
+              type="email"
+              name="email"
+              id="email"
+              required />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Mobile No.</td>
+          <td class="fields">
+            <input
+              class="input"
+              type="tel"
+              name="number"
+              id="number"
+              required />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Password</td>
+          <td class="fields">
+            <input
+              class="input"
+              type="password"
+              name="password"
+              id="password"
+              required />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Confirm Password</td>
+          <td class="fields">
+            <input
+              class="input"
+              type="password"
+              name="confPassword"
+              id="confPassword"
+              required />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Date of Birth</td>
+          <td class="fields">
+            <input class="input" type="date" name="dob" id="dob" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Upload your photo</td>
+          <td class="fields">
+            <input type="file" name="uploadPhoto" id="uploadPhoto" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Or any image link</td>
+          <td class="fields">
+            <input class="input" type="url" name="url" id="url" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Gender</td>
+          <td class="fields">
+            <input type="radio" name="gender" id="gender" required /> Male
+            <input type="radio" name="gender" id="gender" required /> Female
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Choose your favorite color</td>
+          <td class="fields">
+            <input type="color" class="color" name="color" id="color" />
+          </td>
+        </tr>
+        <!-- <tr>
+          <td>Hobbies</td>
+          <td>
+            <input type="checkbox" name="hobbies" id="hobbies" required />
+            Travelling
+            <input type="checkbox" name="hobbies" id="hobbies" required />
+            Reading
+            <input type="checkbox" name="hobbies" id="hobbies" required />
+            Coding
+          </td>
+        </tr> -->
+
+        <tr>
+          <td class="fields">Your skill range</td>
+          <td class="fields">
+            <input
+              type="range"
+              class="range"
+              name="range"
+              id="range"
+              min="1"
+              max="100"
+              value="0" />
+            <span class="range_value">0%</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="fields">Country</td>
+          <td class="fields">
+            <select name="country" id="country" class="menu">
+              <option value="">Choose your country</option>
+              <option value="india">India</option>
+              <option value="usa">USA</option>
+              <option value="uk">UK</option>
+              <option value="africa">Africa</option>
+              <option value="russia">Russia</option>
+              <option value="ukraine">Ukraine</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" class="fields">
+            <input
+              type="submit"
+              name="submit"
+              class="submit"
+              value="Register" />
+            <input type="reset" name="reset" class="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

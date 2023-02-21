@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.price {
+  list-style: none;
+  border: 2px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+
+.price {
+  /*start ------------*/
+  width: [object Object]px;
+  height: [object Object]px;
+  background: #F8F8F8;
+  border: solid #BDBDBD 0;
+  box-shadow: -2px 2px 34px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -2px 2px 34px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -2px 2px 34px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.price .header {
+  background-color: cornflowerblue;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.price li {
+  border-bottom: 2px solid #eee;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(179, 240, 255);
+}
+
+.price .rate {
+  font-size: 40px;
+}
+
+.button {
+  background-color: rgb(47, 82, 255);
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  color: wheat
+}
+
+.button:hover {
+  background-color: red;
+}

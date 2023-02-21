@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  padding: 16px;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #eee;
+  padding: 20px;
+  box-shadow: -2px 2px 34px rgba(0, 0, 0, 0.5);
+
+  margin: auto;
+  width: 50%;
+}
+
+.heading {
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.fields {
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-family: inherit;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.color {
+  cursor: pointer;
+}
+
+.range {
+  cursor: pointer;
+}
+
+.menu {
+  appearance: none;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+.menu::-ms-expand {
+  display: none;
+}
+
+.submit {
+  padding: 10px;
+  border-radius: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+.submit:hover {
+  color: #eee;
+  background-color: black;
+}
+
+.reset {
+  padding: 10px;
+  border-radius: 100px;
+  float: right;
+  border: 1px solid black;
+}
+
+.reset:hover {
+  color: #eee;
+  background-color: black;
+}

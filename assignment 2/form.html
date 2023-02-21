@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOrm</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="#" method="get">
+      <table border="1" width="600" cellspacing="5" cellspadding="5">
+        <th colspan="2"><h1>Enrollement Form</h1></th>
+
+        <tr>
+          <td>First Name</td>
+          <td>
+            <input type="text" name="firstname" id="firstname" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Last Name</td>
+          <td><input type="text" name="lastname" id="lastname" /></td>
+        </tr>
+
+        <tr>
+          <td>Email</td>
+          <td><input type="email" name="email" id="email" required /></td>
+        </tr>
+
+        <tr>
+          <td>Password</td>
+          <td>
+            <input type="password" name="password" id="password" required />
+          </td>
+        </tr>
+        <tr>
+          <td>DOB</td>
+          <td><input type="date" name="dob" id="dob" /></td>
+        </tr>
+        <tr>
+          <td>Upload</td>
+          <td><input type="file" name="upload" id="upload" /></td>
+        </tr>
+
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <input type="radio" name="gender" id="male" value="male" />Male
+            <input
+              type="radio"
+              name="gender"
+              id="female"
+              value="female" />Female
+            <input type="radio" name="gender" id="other" value="other" />Other
+          </td>
+        </tr>
+
+        <tr>
+          <td>Hobbies:</td>
+          <td>
+            <input type="checkbox" name="music" id="music" value="music" />Music
+            <input
+              type="checkbox"
+              name="travel"
+              id="travel"
+              value="travel" />Travelling
+            <input
+              type="checkbox"
+              name="reading"
+              id="reading"
+              value="reading" />Reading
+          </td>
+        </tr>
+
+        <tr>
+          <td>Country:</td>
+          <td>
+            <select name="country" id="country">
+              <option value=""></option>
+              <option value="india">India</option>
+              <option value="usa">USA</option>
+              <option value="australia">Australia</option>
+              <option value="can">Canada</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Comments:</td>
+          <td>
+            <textarea name="" id="" cols="60" rows="10"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <input type="submit" name="submit" value="Register" />
+            <input type="reset" name="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
