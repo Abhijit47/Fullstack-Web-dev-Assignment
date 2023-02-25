@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}
+
+.btn__container {
+  /* background-color: brown; */
+  /* width: 500px;
+  height: 500px;
+  margin: 0 auto;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px; */
+
+  width: 60vw;
+  /*optional*/
+  height: 60vh;
+  margin: 20vh auto;
+  /* background: #333; */
+}
+
+.btn__primary:link,
+.btn__primary:visited {
+  text-decoration: none;
+  color: #fff;
+  padding: 1.5rem;
+  background-color: chocolate;
+  border-radius: 20px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #0066CC;
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1608ms;
+  /* transform: translateY(0); */
+}
+
+.btn__primary:hover {
+  transition: 1608ms;
+  padding: 10px 50px;
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 2px #0066cc;
+  /* transform: translateY(-0px); */
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .5);
+}
+
+.btn__primary:active {
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
