@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="fav/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="fav/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="fav/favicon-16x16.png" />
+    <link rel="manifest" href="fav/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My&nbsp;Resume&nbsp;&#45;&nbsp;Abhijit&nbsp;Karmakar</title>
+    <script language="javascript">
+      document.addEventListener("contextmenu", (event) => {
+        event.preventDefault();
+      });
+
+      function Disable_Control_C() {
+        var keystroke = String.fromCharCode(event.keyCode).toLowerCase();
+
+        if (event.ctrlKey && (keystroke == "c" || keystroke == "v")) {
+          alert("Copy / Paste doesn't allowed here");
+          event.returnValue = false; // disable Ctrl+C
+        }
+      }
+    </script>
+  </head>
+  <body onkeydown="javascript:Disable_Control_C()">
+    <div class="container" id="my-container">
+      <div class="container__top">
+        <div class="container__photo">
+          <div class="container__user-photo">
+            <img class="user__photo" src="img/self-1.png" alt="user photo" />
+          </div>
+        </div>
+
+        <div class="container__profile">
+          <h1 class="heading__primary">Abhijit&nbsp;Karmakar</h1>
+          <ul class="container__profile-items">
+            <li>
+              <ion-icon name="phone-portrait-sharp" class="icons"></ion-icon>
+              <a href="tel:+9563828213" target="_blank">Phone</a>
+            </li>
+            <li>
+              <ion-icon name="mail-outline" class="icons"></ion-icon>
+              <a href="mailto:akarmakar846@gmail.com" target="_blank">Mail</a>
+            </li>
+            <li>
+              <ion-icon name="logo-github" class="icons"></ion-icon>
+              <a href="http://github.com/Abhijit47" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <ion-icon name="logo-linkedin" class="icons"></ion-icon>
+              <a
+                href="https://www.linkedin.com/in/abhijit-karmakar/"
+                target="_blank"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <ion-icon name="location-outline" class="icons"></ion-icon>
+              <a href="#">Gangarampur | India</a>
+            </li>
+          </ul>
+          <h1 class="container__user-profile">
+            Web Developer&nbsp;&#124;&nbsp;Frontend Developer
+          </h1>
+        </div>
+      </div>
+
+      <!-- BOTTOM PART -->
+      <div class="container__bottom">
+        <!-- LEFT -->
+        <div class="container__left">
+          <!-- SKILL -->
+          <div class="container__skill">
+            <div class="container-heading">
+              <ion-icon name="build-sharp" class="icons"></ion-icon>
+              <h2 class="heading__secondary">skills</h2>
+            </div>
+
+            <div class="container__skill-name">
+              <!--  -->
+              <p>HTML&nbsp;<ion-icon name="logo-html5"></ion-icon></p>
+              <div class="parent">
+                <p class="html">90%</p>
+              </div>
+
+              <p>CSS&nbsp;<ion-icon name="logo-css3"></ion-icon></p>
+              <div class="parent">
+                <p class="css">80%</p>
+              </div>
+
+              <p>
+                JavaScript&nbsp;<ion-icon name="logo-javascript"></ion-icon>
+              </p>
+              <div class="parent">
+                <p class="js">85%</p>
+              </div>
+
+              <p>React JS&nbsp;<ion-icon name="logo-react"></ion-icon></p>
+              <div class="parent">
+                <p class="react">85%</p>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+
+          <!-- PROJECTS -->
+          <div class="container__project">
+            <div class="container-heading">
+              <ion-icon name="folder-open-sharp" class="icons"></ion-icon>
+              <h2 class="heading__secondary">projects</h2>
+            </div>
+
+            <div class="container__project-section">
+              <div class="project-lists">
+                <div class="project-heading">
+                  <h3>Omnifood Project</h3>
+                  <a
+                    href="https://omnifood-abhijit.netlify.app/"
+                    class="link"
+                    target="_blank"
+                    ><ion-icon name="link-sharp"></ion-icon
+                  ></a>
+                </div>
+                <ul>
+                  <li>
+                    <p>2022</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quidem, et!
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-lists">
+                <div class="project-heading">
+                  <h3>Weather App</h3>
+                  <a
+                    href="https://weather-app-n-info.netlify.app/"
+                    class="link"
+                    target="_blank"
+                    ><ion-icon name="link-sharp"></ion-icon
+                  ></a>
+                </div>
+                <ul>
+                  <li>
+                    <p>2022</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quidem, et!
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-lists">
+                <div class="project-heading">
+                  <h3>Mapty App</h3>
+                  <a
+                    href="https://maptyapp-v2.netlify.app/"
+                    class="link"
+                    target="_blank"
+                    ><ion-icon name="link-sharp"></ion-icon
+                  ></a>
+                </div>
+                <ul>
+                  <li>
+                    <p>2022</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quidem, et!
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-lists">
+                <div class="project-heading">
+                  <h3>Food Recipe App</h3>
+                  <a
+                    href="https://forkififood.netlify.app/"
+                    class="link"
+                    target="_blank"
+                    ><ion-icon name="link-sharp"></ion-icon
+                  ></a>
+                </div>
+                <ul>
+                  <li>
+                    <p>2022</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quidem, et!
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-lists">
+                <div class="project-heading">
+                  <h3>Movie Info App</h3>
+                  <a
+                    href="https://movieapp-v2.netlify.app/"
+                    class="link"
+                    target="_blank"
+                    ><ion-icon name="link-sharp"></ion-icon
+                  ></a>
+                </div>
+                <ul>
+                  <li>
+                    <p>2022</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quidem, et!
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container__right">
+          <div class="container__education">
+            <div class="container-heading">
+              <ion-icon name="school-sharp" class="icons"></ion-icon>
+              <h2 class="heading__secondary">Education</h2>
+            </div>
+
+            <div class="container__education-info">
+              <h4>Bachelor&nbsp;of&nbsp;Computer&nbsp;Application</h4>
+              <div class="education-info--other">
+                <p>2020&nbsp;&#45;&nbsp;2023</p>
+                <p>Buniadpur&#44;&nbsp;India</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container__course">
+            <div class="container-heading">
+              <ion-icon name="library-sharp" class="icons"></ion-icon>
+              <h2 class="heading__secondary">Course</h2>
+            </div>
+
+            <div class="container__course-info">
+              <h4>Full Stack Web Developement</h4>
+              <p>Lets Upgrade</p>
+              <a
+                href="https://letsupgrade.in/programs/fullstack-web-development-pgp-fs"
+                class="link"
+                target="_blank"
+                ><ion-icon name="link-sharp"></ion-icon
+              ></a>
+            </div>
+            <p>01/2023&nbsp;&#45;&nbsp;2023</p>
+
+            <div class="container__course-info">
+              <h4>The Complete JavaScript Course 2023</h4>
+              <p>Udemy</p>
+              <a
+                href="https://www.udemy.com/certificate/UC-ac2df051-579d-435f-bcfc-676d2f646f88/"
+                class="link"
+                target="_blank"
+                ><ion-icon name="link-sharp"></ion-icon
+              ></a>
+            </div>
+            <p>2022&nbsp;&#45;&nbsp;2022</p>
+
+            <div class="container__course-info">
+              <h4>Build Responsive Real-World Websites with HTML and CSS</h4>
+              <p>Udemy</p>
+              <a
+                href="https://www.udemy.com/certificate/UC-b6f70d10-abab-494b-a52e-043353496b10/"
+                class="link"
+                target="_blank"
+                ><ion-icon name="link-sharp"></ion-icon
+              ></a>
+            </div>
+            <p>2022&nbsp;&#45;&nbsp;2022</p>
+
+            <div class="container__course-info">
+              <h4>React Basics</h4>
+              <p>Coursera</p>
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/JEMH3KRSBDPP"
+                class="link"
+                target="_blank"
+                ><ion-icon name="link-sharp"></ion-icon
+              ></a>
+            </div>
+            <p>2022&nbsp;&#45;&nbsp;2022</p>
+          </div>
+
+          <div class="container__certificate">
+            <div class="container-heading">
+              <ion-icon name="ribbon-sharp" class="icons"></ion-icon>
+              <h2 class="heading__secondary">Certificate</h2>
+            </div>
+
+            <div class="container__certificate-info">
+              <h4>Build Responsive Real-World Websites with HTML and CSS</h4>
+              <a
+                href="https://www.udemy.com/certificate/UC-b6f70d10-abab-494b-a52e-043353496b10/"
+                class="link"
+                target="_blank"
+                ><ion-icon name="link-sharp"></ion-icon
+              ></a>
+            </div>
+
+            <div class="container__certificate-info">
+              <h4>The Complete JavaScript Course 2023</h4>
+              <a
+                href="https://www.udemy.com/certificate/UC-ac2df051-579d-435f-bcfc-676d2f646f88/"
+                class="link"
+                target="_blank"
+                ><ion-icon name="link-sharp"></ion-icon
+              ></a>
+            </div>
+
+            <div class="container__certificate-info">
+              <h4>React Basics</h4>
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/JEMH3KRSBDPP"
+                class="link"
+                target="_blank"
+                ><ion-icon name="link-sharp"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="container__languages">
+            <div class="container-heading">
+              <ion-icon name="earth-sharp" class="icons"></ion-icon>
+              <h2 class="heading__secondary">Languages</h2>
+            </div>
+
+            <div class="language-section">
+              <div class="language-list">
+                <p class="language-heading">English</p>
+                <p class="language-level">&nbsp;</p>
+              </div>
+
+              <div class="language-list">
+                <p class="language-heading">Hindi</p>
+                <p class="language-level">&nbsp;</p>
+              </div>
+
+              <div class="language-list">
+                <p class="language-heading">Bengali</p>
+                <p class="language-level">&nbsp;</p>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer__text">
+      <p>2023&nbsp;&copy;&nbsp;All rights reserved</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

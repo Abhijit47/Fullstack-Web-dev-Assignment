@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Fira+Sans+Condensed:wght@400;500;600;700&family=Oxygen:wght@400;700&family=Signika+Negative:wght@400;500;600&display=swap');
+
+:root {
+  --body-bg-color: #e5e7eb;
+
+  --container-bg-color: #d1d5db;
+
+  --color-primary: #12CE90;
+
+  --color-outline: #d6d3d1;
+
+  --color-heading-primary: #030302;
+
+  --color-bottom: #a3a3a3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  background-color: var(--body-bg-color);
+}
+
+.container {
+  background-color: var(--container-bg-color);
+  padding: 1.5rem;
+  width: 95vw;
+  margin: 0 auto;
+  margin-top: .2rem;
+  /* height: 98vh; */
+  /* background-color: rgb(206, 117, 1); */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 1rem; */
+  position: relative;
+}
+
+.container__top {
+  background-color: var(--color-primary);
+  padding: 1rem;
+  width: 90vw;
+  border-radius: 3px;
+
+  position: sticky;
+  top: 10px;
+  z-index: 1;
+}
+
+.container__photo {
+  /* background-color: darkblue; */
+  width: 10rem;
+  margin: 0 auto;
+}
+
+.container__user-photo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.user__photo {
+  height: 8rem;
+  width: 8rem;
+  margin-bottom: .5rem;
+
+
+  border-radius: 100px;
+  outline: 3px;
+  outline-style: solid;
+  outline-offset: 2px;
+  outline-color: var(--color-outline);
+}
+
+.container__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}
+
+.heading__primary {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: .1rem;
+  color: var(--color-heading-primary);
+}
+
+.container__profile-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container__profile-items li {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
+  gap: .2rem;
+}
+
+.container__profile-items li a {
+  text-decoration: none;
+  color: #030302;
+}
+
+.icons {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.container__user-profile {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Comfortaa', cursive;
+  /* letter-spacing: .1rem; */
+}
+
+.link {
+  color: #d4d4d4;
+}
+
+/* BOTTOM PART */
+.container__bottom {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  /* background-color: rgb(125, 243, 247); */
+}
+
+/* ASIDE LEFT */
+.container__left {
+  /* background-color: darkslateblue; */
+  border-radius: 3px;
+  /* padding: 2rem; */
+  width: 44vw;
+  height: 70rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container__skill {
+  /* background-color: darksalmon; */
+  background-color: var(--color-bottom);
+  padding: 1.5rem;
+  border-radius: 3px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container__skill-name {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.parent {
+  background-color: #ddd;
+  border-radius: 100px;
+}
+
+.html,
+.css,
+.js,
+.react {
+  height: 1.5rem;
+  background-color: #04AA6D;
+  color: white;
+  padding-top: .2rem;
+  text-align: right;
+  border-radius: 100px;
+  /* padding-bottom: 10px; */
+}
+
+.html {
+  width: 90%;
+}
+
+.css {
+  width: 80%;
+}
+
+.js {
+  width: 85%;
+}
+
+.react {
+  width: 85%;
+}
+
+.container__project {
+  /* background-color: darkgoldenrod; */
+  background-color: var(--color-bottom);
+  border-radius: 3px;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container-heading {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .5rem;
+}
+
+.heading__secondary {
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+.container__project-section {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-lists ul li {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.project-lists ul {
+  list-style: none;
+  margin-top: .5rem;
+}
+
+.project-heading {
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+/* ASIDE LEFT */
+.container__right {
+  /* background-color: dodgerblue; */
+  border-radius: 3px;
+  /* padding: 1rem; */
+  width: 44vw;
+  height: 70rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container__education {
+  /* background-color: blueviolet; */
+  background-color: var(--color-bottom);
+  border-radius: 3px;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.container__education-info {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+.education-info--other {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.container__course {
+  /* background-color: brown; */
+  background-color: var(--color-bottom);
+  border-radius: 3px;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.container__course-info {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.container__certificate {
+  /* background-color: chartreuse; */
+  background-color: var(--color-bottom);
+  border-radius: 3px;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container__certificate-info:has(:last-child) {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  /* align-items: center;
+  justify-content: flex-start; */
+}
+
+.container__languages {
+  /* background-color: darkgreen; */
+  background-color: var(--color-bottom);
+  border-radius: 3px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.language-section {
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 90%;
+}
+
+.language-level {
+  background-color: #04AA6D;
+  width: 90%;
+  border-radius: 50px;
+}
+
+.footer__text {
+  background-color: var(--body-bg-color);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
