@@ -1,0 +1,22 @@
+table {
+  /* background-color: rgb(66, 196, 146); */
+  /* width: 50%; */
+  /* margin: 0 auto; */
+  /* border-collapse: collapse; */
+  font-size: medium;
+  font-family: sans-serif;
+  /* text-align: center; */
+  /* border: 1px solid black; */
+}
+
+table tbody tr td .td {
+  background-color: cornflowerblue;
+}
+
+/* table tbody tr td:nth-child(4) {
+  background-color: aqua;
+} */
+
+/* table tbody tr td:nth-of-type(4) {
+  background-color: blueviolet;
+} */
