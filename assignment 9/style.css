@@ -13,6 +13,10 @@ table tbody tr td .td {
   background-color: cornflowerblue;
 }
 
+.tablerow-6:nth-child(4) {
+  background-color: orangered;
+}
+
 /* table tbody tr td:nth-child(4) {
   background-color: aqua;
 } */
