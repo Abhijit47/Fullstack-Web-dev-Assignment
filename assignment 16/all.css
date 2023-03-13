@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Fira+Sans+Condensed:wght@400;500;600;700&family=Oxygen:wght@400;700&family=Poppins:wght@400;500&family=Signika+Negative:wght@400;500;600&display=swap');
+
+*::after,
+a::before,
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: orangered;
+}
+
+.container {
+  background-color: burlywood;
+}
+
+.project__cards {
+  background-color: greenyellow;
+}
